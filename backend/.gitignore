@@ -1,0 +1,27 @@
+# Virtual environment - never push this (huge folder, 100s of MBs)
+venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+*.db
+*.sqlite
+
+# VS Code settings
+.vscode/
+
+# Sample data (optional - remove this line if you want data on github)
+# sample_data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

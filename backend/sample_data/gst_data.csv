@@ -1,0 +1,119 @@
+company_name,pan,gstin,address,pincode,state
+Ram Traders,AABCT1234E,27AABCT1234E1Z5,12 MG Road Mumbai,400001,Maharashtra
+Ram Traders Pvt Ltd,AABCT1234E,27AABCT1234E1Z5,12 M.G. Road Mumbai,400001,Maharashtra
+Shree Enterprises,BBBCE5678F,29BBBCE5678F1Z1,45 Brigade Road Bangalore,560001,Karnataka
+Global Tech Solutions,CCCDF9012G,06CCCDF9012G1Z8,22 Connaught Place New Delhi,110001,Delhi
+Global Tech Soln,CCCDF9012G,06CCCDF9012G1Z8,22 CP New Delhi,110001,Delhi
+Patel And Sons,DDDEG3456H,24DDDEG3456H1Z4,7 Ring Road Ahmedabad,380001,Gujarat
+Sunrise Industries,EEEFH7890I,27EEEFH7890I1Z2,88 Andheri East Mumbai,400069,Maharashtra
+Sunrise Inds,EEEFH7890I,27EEEFH7890I1Z2,88 Andheri East Mumbai,400069,Maharashtra
+Mehta Chemicals,FFFGI2345J,24FFFGI2345J1Z6,15 GIDC Vatva Ahmedabad,382445,Gujarat
+Mehta Chemical Works,FFFGI2345J,24FFFGI2345J1Z6,15 GIDC Vatva Ahmedabad,382445,Gujarat
+Sharma Transport,GGGHI6789K,07GGGHI6789K1Z3,33 Transport Nagar New Delhi,110041,Delhi
+Sharma Transports,GGGHI6789K,07GGGHI6789K1Z3,33 Transport Nagar Delhi,110041,Delhi
+Lakshmi Textiles,HHHIJ0123L,33HHHIJ0123L1Z0,56 Textile Market Chennai,600003,Tamil Nadu
+Lakshmi Textile Mills,HHHIJ0123L,33HHHIJ0123L1Z0,56 Textile Market Chennai,600003,Tamil Nadu
+Verma Construction,IIIJK4567M,09IIIJK4567M1Z7,78 Civil Lines Lucknow,226001,Uttar Pradesh
+Verma Constructions Pvt Ltd,IIIJK4567M,09IIIJK4567M1Z7,78 Civil Lines Lucknow,226001,Uttar Pradesh
+Gupta Jewellers,JJJKL8901N,07JJJKL8901N1Z4,12 Karol Bagh New Delhi,110005,Delhi
+Gupta Jewellery,JJJKL8901N,07JJJKL8901N1Z4,12 Karol Bagh Delhi,110005,Delhi
+Singh Automobiles,KKKL M2345O,08KKLM2345O1Z1,44 Auto Nagar Jaipur,302001,Rajasthan
+Singh Auto,KKLM2345O,08KKLM2345O1Z1,44 Auto Nagar Jaipur,302001,Rajasthan
+Reddy Pharma,LLLMN6789P,36LLLMN6789P1Z8,23 Banjara Hills Hyderabad,500034,Telangana
+Reddy Pharmaceuticals,LLLMN6789P,36LLLMN6789P1Z8,23 Banjara Hills Hyderabad,500034,Telangana
+Khan Exports,MMMNO0123Q,27MMMNO0123Q1Z5,67 SEEPZ Mumbai,400096,Maharashtra
+Khan Export House,MMMNO0123Q,27MMMNO0123Q1Z5,67 SEEPZ Andheri Mumbai,400096,Maharashtra
+Iyer Consultants,NNNOP4567R,33NNNOP4567R1Z2,34 Anna Nagar Chennai,600040,Tamil Nadu
+Iyer Consulting Services,NNNOP4567R,33NNNOP4567R1Z2,34 Anna Nagar Chennai,600040,Tamil Nadu
+Bose Electronics,OOOPQ8901S,19OOOPQ8901S1Z9,89 Salt Lake Kolkata,700091,West Bengal
+Bose Electronic Works,OOOPQ8901S,19OOOPQ8901S1Z9,89 Salt Lake City Kolkata,700091,West Bengal
+Joshi Plastics,PPPQR2345T,27PPPQR2345T1Z6,12 Dharavi Industrial Area Mumbai,400017,Maharashtra
+Joshi Plastic Industries,PPPQR2345T,27PPPQR2345T1Z6,12 Dharavi Mumbai,400017,Maharashtra
+Nair Rubber Products,QQQRS6789U,32QQQRS6789U1Z3,45 Industrial Estate Kochi,682302,Kerala
+Nair Rubbers,QQQRS6789U,32QQQRS6789U1Z3,45 Industrial Estate Ernakulam Kochi,682302,Kerala
+Chauhan Steel,RRRST0123V,24RRRST0123V1Z0,56 Steel Market Surat,395003,Gujarat
+Chauhan Steels Pvt Ltd,RRRST0123V,24RRRST0123V1Z0,56 Steel Market Surat,395003,Gujarat
+Pillai Coconut Products,SSSТУ4567W,32SSSТУ4567W1Z7,78 Coconut Grove Thrissur,680001,Kerala
+Malhotra Garments,TTTУV8901X,07TTTUV8901X1Z4,23 Lajpat Nagar New Delhi,110024,Delhi
+Malhotra Garment House,TTTUV8901X,07TTTUV8901X1Z4,23 Lajpat Nagar Delhi,110024,Delhi
+Fernandes Fisheries,UUUVW2345Y,30UUUVW2345Y1Z1,12 Harbour Road Goa,403001,Goa
+Fernandes Fish Products,UUUVW2345Y,30UUUVW2345Y1Z1,12 Harbour Road Panaji Goa,403001,Goa
+Saxena Paper Mills,VVVWX6789Z,09VVVWX6789Z1Z8,34 Paper Mill Road Kanpur,208001,Uttar Pradesh
+Saxena Papers,VVVWX6789Z,09VVVWX6789Z1Z8,34 Paper Mill Rd Kanpur,208001,Uttar Pradesh
+Tiwari Dairy,WWWXY0123A,23WWWXY0123A1Z5,56 Dairy Farm Road Bhopal,462001,Madhya Pradesh
+Tiwari Dairy Products,WWWXY0123A,23WWWXY0123A1Z5,56 Dairy Farm Bhopal,462001,Madhya Pradesh
+Banerjee Sweets,XXXYZ4567B,19XXXYZ4567B1Z2,78 Rabindra Sarani Kolkata,700006,West Bengal
+Banerjee Sweet House,XXXYZ4567B,19XXXYZ4567B1Z2,78 Rabindra Sarani Kolkata,700006,West Bengal
+Agarwal Cement,YYYZA8901C,08YYYZA8901C1Z9,12 Industrial Area Jodhpur,342001,Rajasthan
+Agarwal Cements Ltd,YYYZA8901C,08YYYZA8901C1Z9,12 Industrial Area Jodhpur,342001,Rajasthan
+Desai Motors,ZZZAB2345D,24ZZZAB2345D1Z6,34 Auto Bazar Rajkot,360001,Gujarat
+Desai Motor Works,ZZZAB2345D,24ZZZAB2345D1Z6,34 Auto Bazar Rajkot,360001,Gujarat
+Chopra Furniture,AAABB6789E,07AAABB6789E1Z3,56 Furniture Market Delhi,110006,Delhi
+Chopra Furnitures,AAABB6789E,07AAABB6789E1Z3,56 Furniture Market New Delhi,110006,Delhi
+Sinha Coal,BBBBC0123F,20BBBBC0123F1Z0,78 Coal Depot Dhanbad,826001,Jharkhand
+Sinha Coal Traders,BBBBC0123F,20BBBBC0123F1Z0,78 Coal Depot Dhanbad,826001,Jharkhand
+Mishra Hardware,CCCCD4567G,09CCCCD4567G1Z7,12 Hardware Market Varanasi,221001,Uttar Pradesh
+Mishra Hardware Stores,CCCCD4567G,09CCCCD4567G1Z7,12 Hardware Market Varanasi,221001,Uttar Pradesh
+Kapoor Films,DDDDE8901H,07DDDDE8901H1Z4,34 Film Nagar Delhi,110049,Delhi
+Rao Agro Industries,EEEEF2345I,29EEEEF2345I1Z1,56 Agro Zone Belgaum,590001,Karnataka
+Rao Agro,EEEEF2345I,29EEEEF2345I1Z1,56 Agro Zone Belgaum,590001,Karnataka
+Trivedi Chemicals,FFFFG6789J,24FFFFG6789J1Z8,78 Chemical Zone Vadodara,390001,Gujarat
+Trivedi Chemical Industries,FFFFG6789J,24FFFFG6789J1Z8,78 Chemical Zone Baroda,390001,Gujarat
+Kulkarni Engineering,GGGGH0123K,27GGGGH0123K1Z5,12 Engineering Hub Pune,411001,Maharashtra
+Kulkarni Engg Works,GGGGH0123K,27GGGGH0123K1Z5,12 Engineering Hub Pune,411001,Maharashtra
+Pandey Brick Works,HHHHI4567L,09HHHHI4567L1Z2,34 Brick Kiln Road Allahabad,211001,Uttar Pradesh
+Jain Diamonds,IIIIJ8901M,24IIIIJ8901M1Z9,56 Diamond Bourse Surat,395002,Gujarat
+Jain Diamond Exports,IIIIJ8901M,24IIIIJ8901M1Z9,56 Diamond Bourse Surat,395002,Gujarat
+Kumar Logistics,JJJJK2345N,33JJJJK2345N1Z6,78 Logistics Park Chennai,600016,Tamil Nadu
+Kumar Logistic Services,JJJJK2345N,33JJJJK2345N1Z6,78 Logistics Park Chennai,600016,Tamil Nadu
+Oberoi Hotels,KKKKL6789O,07KKKKL6789O1Z3,12 Connaught Place New Delhi,110001,Delhi
+Naidu Cotton Mills,LLLLM0123P,28LLLLM0123P1Z0,34 Cotton Market Guntur,522001,Andhra Pradesh
+Naidu Cotton,LLLLM0123P,28LLLLM0123P1Z0,34 Cotton Market Guntur,522001,Andhra Pradesh
+Bhatt Printing Press,MMMMN4567Q,24MMMMN4567Q1Z7,56 Press Zone Ahmedabad,380008,Gujarat
+Bhatt Printers,MMMMN4567Q,24MMMMN4567Q1Z7,56 Press Zone Ahmedabad,380008,Gujarat
+Srivastava Oil Mills,NNNNO8901R,09NNNNO8901R1Z4,78 Oil Mill Road Agra,282001,Uttar Pradesh
+Srivastava Oils,NNNNO8901R,09NNNNO8901R1Z4,78 Oil Mill Rd Agra,282001,Uttar Pradesh
+Ghosh Pharmaceuticals,OOOOP2345S,19OOOOP2345S1Z1,12 Pharma Hub Kolkata,700016,West Bengal
+Ghosh Pharma,OOOOP2345S,19OOOOP2345S1Z1,12 Pharma Hub Kolkata,700016,West Bengal
+Venkatesh Textiles,PPPPQ6789T,29PPPPQ6789T1Z8,34 Textile Park Hubli,580029,Karnataka
+Venkatesh Textile Mills,PPPPQ6789T,29PPPPQ6789T1Z8,34 Textile Park Hubli,580029,Karnataka
+Dubey Rice Mills,QQQR0123U,23QQQRR0123U1Z5,56 Rice Mill Road Raipur,492001,Chhattisgarh
+Dubey Rice,QQQRR0123U,23QQQRR0123U1Z5,56 Rice Mill Raipur,492001,Chhattisgarh
+Anand Dairy Farm,RRRRR4567V,24RRRRR4567V1Z2,78 Dairy Road Anand,388001,Gujarat
+Anand Dairy,RRRRR4567V,24RRRRR4567V1Z2,78 Dairy Rd Anand,388001,Gujarat
+Menon Spices,SSSSS8901W,32SSSSS8901W1Z9,12 Spice Market Kozhikode,673001,Kerala
+Menon Spice Exports,SSSSS8901W,32SSSSS8901W1Z9,12 Spice Market Calicut,673001,Kerala
+Thakur Marble,TTTTT2345X,08TTTTT2345X1Z6,34 Marble Zone Kishangarh,305801,Rajasthan
+Thakur Marbles,TTTTT2345X,08TTTTT2345X1Z6,34 Marble Zone Kishangarh,305801,Rajasthan
+Parekh Chemicals,UUUUU6789Y,24UUUUU6789Y1Z3,56 Chemical Estate Ankleshwar,393001,Gujarat
+Parekh Chemical Works,UUUUU6789Y,24UUUUU6789Y1Z3,56 Chemical Estate Ankleshwar,393001,Gujarat
+Rajan Shipping,VVVVV0123Z,27VVVVV0123Z1Z0,78 Port Road Mumbai,400001,Maharashtra
+Rajan Ship Lines,VVVVV0123Z,27VVVVV0123Z1Z0,78 Port Road Mumbai,400001,Maharashtra
+Krishnan Software,WWWWW4567A,33WWWWW4567A1Z7,12 IT Park Chennai,600096,Tamil Nadu
+Krishnan Software Solutions,WWWWW4567A,33WWWWW4567A1Z7,12 IT Park Sholinganallur Chennai,600096,Tamil Nadu
+Bajaj Auto Parts,XXXXX8901B,27XXXXX8901B1Z4,34 Auto Parts Market Pune,411019,Maharashtra
+Bajaj Auto Spares,XXXXX8901B,27XXXXX8901B1Z4,34 Auto Parts Market Pune,411019,Maharashtra
+Lal Sweets,YYYYY2345C,07YYYYY2345C1Z1,56 Chandni Chowk Delhi,110006,Delhi
+Lal Sweet Shop,YYYYY2345C,07YYYYY2345C1Z1,56 Chandni Chowk New Delhi,110006,Delhi
+Ram Traders,ZZZZZ6789D,27ZZZZZ6789D1Z8,78 Market Road Mumbai,400002,Maharashtra
+Ram Traders,AAAAА0123E,29AAAAA0123E1Z5,12 Commercial Street Bangalore,560001,Karnataka
+Mehta Enterprises,BBBBB4567F,24BBBBB4567F1Z2,34 Business Hub Ahmedabad,380009,Gujarat
+Patel Industries,CCCCC8901G,24CCCCC8901G1Z9,56 Industrial Estate Vadodara,390010,Gujarat
+Singh Medical Store,DDDDD2345H,07DDDDD2345H1Z6,78 Medical Market Delhi,110051,Delhi
+Sharma Clinic,EEEEE6789I,07EEEEE6789I1Z3,12 Doctor Lane Delhi,110052,Delhi
+Kumar School,FFFFF0123J,33FFFFF0123J1Z0,34 Education Road Chennai,600010,Tamil Nadu
+Gupta College,GGGGG4567K,07GGGGG4567K1Z7,56 University Road Delhi,110007,Delhi
+Nair Hotels,HHHHH8901L,32HHHHH8901L1Z4,78 Beach Road Trivandrum,695001,Kerala
+Iyer Resorts,IIIII2345M,32IIIII2345M1Z1,12 Hill Station Road Munnar,685612,Kerala
+Bose Shipping,JJJJJ6789N,19JJJJJ6789N1Z8,34 Dock Road Kolkata,700043,West Bengal
+Joshi Engineering,KKKKK0123O,27KKKKK0123O1Z5,56 Engineering Road Nagpur,440001,Maharashtra
+Nair Construction,LLLLL4567P,32LLLLL4567P1Z2,78 Construction Zone Kochi,682001,Kerala
+Chauhan Textiles,MMMMM8901Q,24MMMMM8901Q1Z9,12 Textile Market Surat,395004,Gujarat
+Pillai Exports,NNNNN2345R,32NNNNN2345R1Z6,34 Export Zone Trivandrum,695008,Kerala
+Malhotra Jewellers,OOOOO6789S,07OOOOO6789S1Z3,56 Jewellery Market Delhi,110005,Delhi
+Fernandes Exports,PPPPP0123T,30PPPPP0123T1Z0,78 Export Road Goa,403002,Goa
+Saxena Textiles,QQQQQ4567U,09QQQQQ4567U1Z7,12 Textile Road Kanpur,208002,Uttar Pradesh
+Tiwari Industries,RRRRQ8901V,23RRRQQ8901V1Z4,34 Industrial Area Bhopal,462010,Madhya Pradesh
+Banerjee Electronics,SSSSS2345W,19SSSSS2345W1Z1,56 Electronics Market Kolkata,700013,West Bengal
+Agarwal Traders,TTTTT6789X,08TTTTT6789X1Z8,78 Market Road Jaipur,302002,Rajasthan
+Desai Chemicals,UUUUU0123Y,24UUUUU0123Y1Z5,12 Chemical Zone Rajkot,360002,Gujarat

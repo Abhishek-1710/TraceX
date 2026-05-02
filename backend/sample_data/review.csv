@@ -1,0 +1,21 @@
+company_name,pan,gstin,address,pincode,state
+Alpha Manufacturing,ALPAM1234A,27ALPAM1234A1Z5,Plot 45 MIDC Pune,411019,Maharashtra
+Alpha Manufacturing,,27ALPAM1234A1Z5,Plot 45 MIDC Pune,411019,Maharashtra
+Beta Software,BETAS5678B,29BETAS5678B1Z1,Tower B Whitefield Bangalore,560066,Karnataka
+Beta Softwares,BETAS5678B,,Tower B Whitefield Bangalore,560066,Karnataka
+Gamma Traders,GAMMT9012C,06GAMMT9012C1Z8,Shop 12 Sadar Bazar Delhi,110006,Delhi
+Gamma Trading Co,,06GAMMT9012C1Z8,Shop 12 Sadar Bazar Delhi,110006,Delhi
+Delta Exports,DELTAE3456D,24DELTAE3456D1Z4,Unit 7 Export Zone Surat,395010,Gujarat
+Delta Export House,DELTAE3456D,,Unit 7 Export Surat,395010,Gujarat
+Epsilon Hotels,EPSIH7890E,32EPSIH7890E1Z2,Beach Road Kovalam Trivandrum,695527,Kerala
+Epsilon Hotel Resorts,,32EPSIH7890E1Z2,Beach Road Kovalam,695527,Kerala
+Zeta Chemicals,ZETAC2345F,24ZETAC2345F1Z6,Plot 34 GIDC Ankleshwar,393001,Gujarat
+Zeta Chemical Ind,ZETAC2345F,,Plot 34 GIDC Ankleshwar,393001,Gujarat
+Eta Constructions,ETACO6789G,09ETACO6789G1Z3,Civil Lines Allahabad,211001,Uttar Pradesh
+Eta Construction Pvt Ltd,,09ETACO6789G1Z3,Civil Lines Prayagraj,211001,Uttar Pradesh
+Theta Textiles,THETT0123H,33THETT0123H1Z0,Textile Park Tirupur,641604,Tamil Nadu
+Theta Textile Mills,THETT0123H,,Textile Park Tirupur,641604,Tamil Nadu
+Iota Pharma,IOTAP4567I,36IOTAP4567I1Z7,Banjara Hills Hyderabad,500034,Telangana
+Iota Pharmaceuticals,,36IOTAP4567I1Z7,Banjara Hills Hyderabad,500034,Telangana
+Kappa Logistics,KAPPL8901J,27KAPPL8901J1Z4,Nhava Sheva Mumbai,400707,Maharashtra
+Kappa Logistic Serv,KAPPL8901J,,Nhava Sheva Port Mumbai,400707,Maharashtra
