@@ -27,22 +27,47 @@ export default function DashboardPage() {
   const [selected, setSelected] = useState(null)
   const [loading,  setLoading]  = useState(false)
   const [allBiz,   setAllBiz]   = useState([])
+  const [initialLoading, setInitialLoading] = useState(true)
 
-  useEffect(() => {
-    axios.get('/api/alerts/').then(r => setAlerts(r.data.flagged_businesses || []))
-    axios.get('/api/business/all').then(r => setAllBiz(r.data.results || []))
-  }, [])
+ useEffect(() => {
+  Promise.all([
+    axios.get('/api/alerts/'),
+    axios.get('/api/business/all')
+  ])
+  .then(([alertsRes, bizRes]) => {
+    setAlerts(alertsRes.data.flagged_businesses || [])
+    setAllBiz(bizRes.data.results || [])
+  })
+  .catch(err => {
+    console.error("Initial load error", err)
+  })
+  .finally(() => {
+    setInitialLoading(false)
+  })
+}, [])
 
   const search = async () => {
     if (!query.trim()) { setResults([]); return }
     setLoading(true)
-    const r = await axios.get(`/api/business/search?q=${encodeURIComponent(query)}`)
-    setResults(r.data.results)
-    setSelected(null)
-    setLoading(false)
+    try {
+  const r = await axios.get(`/api/business/search?q=${encodeURIComponent(query)}`)
+  setResults(r.data.results)
+} catch (err) {
+  console.error("Search failed", err)
+} finally {
+  setLoading(false)
+}
   }
 
   const displayList = query ? results : allBiz
+
+  if (initialLoading) {
+  return (
+    <div style={{ padding: 40, textAlign: 'center', color: '#64748b' }}>
+      Loading dashboard...
+    </div>
+  )
+}
 
   return (
     <div style={{ minHeight: '100vh', background: '#f1f5f9', padding: 32 }}>
