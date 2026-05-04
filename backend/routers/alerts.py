@@ -7,7 +7,7 @@ from loguru import logger
 
 router = APIRouter()
 
-@router.get("/all")
+@router.get("")
 def get_alerts(db: Session = Depends(get_db)):
     businesses = db.query(Business).all()
     all_logs = db.query(ActivityLog).all()
@@ -19,7 +19,7 @@ def get_alerts(db: Session = Depends(get_db)):
 
     flagged = []
     for biz in businesses:
-        logs   = db.query(ActivityLog).filter(ActivityLog.ubid == biz.ubid).all()
+        logs   = logs_map.get(biz.ubid, [])
         alerts = generate_alerts(biz, logs)
         if alerts:
             flagged.append({
