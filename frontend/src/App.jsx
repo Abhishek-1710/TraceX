@@ -12,7 +12,7 @@ function Navbar() {
   const location = useLocation()
 
   useEffect(() => {
-    axios.get('/api/alerts/').then(r => {
+    axios.get('https://your-backend-url/api/alerts').then(r => {
       const data = r.data.flagged_businesses || []
       setAlerts(data)
       const total = data.reduce((sum, b) => sum + b.alerts.length, 0)
