@@ -109,3 +109,13 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+input {
+  color: #0f172a;
+  background: #ffffff;
+  caret-color: #0f172a;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}

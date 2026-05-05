@@ -89,14 +89,15 @@ return (
         onKeyDown={e => e.key === 'Enter' && search()}
         placeholder="Search by company name or UBID..."
         style={{
-          flex: 1,
-          padding: '12px 16px',
-          borderRadius: 10,
-          border: '1px solid #cbd5e1',
-          fontSize: 15,
-          outline: 'none',
-          background: 'white',
-          color: '#0f172a'
+         flex: 1,
+         padding: '12px 16px',
+         borderRadius: 10,
+         border: '1px solid #cbd5e1',
+         fontSize: 15,
+         outline: 'none',
+         background: '#ffffff',
+         color: '#000000',       
+         caretColor: '#000000'
         }}
       />
 
