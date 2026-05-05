@@ -53,7 +53,7 @@ const search = async () => {
 if (!query.trim()) { setResults([]); return }
 setLoading(true)
 try {
-const r = await axios.get(`/api/business/search?q=${encodeURIComponent(query)}`)
+const r = await axios.get(`${import.meta.env.VITE_API_URL}/api/business/search?q=${encodeURIComponent(query)}`)
 setResults(r.data.results)
 } catch (err) {
 console.error("Search failed", err)

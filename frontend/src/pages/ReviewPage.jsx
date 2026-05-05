@@ -24,8 +24,8 @@ export default function ReviewPage() {
     setLoading(true)
 
     const [q, s] = await Promise.all([
-      axios.get('/api/review/queue'),
-      axios.get('/api/review/stats')
+      axios.get(`${import.meta.env.VITE_API_URL}/api/review/queue`),
+      axios.get(`${import.meta.env.VITE_API_URL}/api/review/stats`)
     ])
 
     setQueue(q.data.items)
@@ -40,7 +40,7 @@ export default function ReviewPage() {
   useEffect(() => { fetchAll() }, [])
 
   const decide = async (id, decision) => {
-    await axios.post('/api/review/decide', { queue_id: id, decision })
+    await axios.post(`${import.meta.env.VITE_API_URL}/api/review/decide`, { queue_id: id, decision })
     fetchAll()
   }
 
