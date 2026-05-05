@@ -32,8 +32,8 @@ const [initialLoading, setInitialLoading] = useState(true)
 
 useEffect(() => {
   Promise.all([
-    axios.get('/api/alerts/'),
-    axios.get('/api/business/all')
+    axios.get(`${import.meta.env.VITE_API_URL}/api/alerts`),
+    axios.get(`${import.meta.env.VITE_API_URL}/api/business`)
   ])
   .then(([alertsRes, bizRes]) => {
     console.log("DATA:", bizRes.data)
