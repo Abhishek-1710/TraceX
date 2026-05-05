@@ -20,16 +20,23 @@ export default function ReviewPage() {
   const [loading, setLoading] = useState(true)
 
   const fetchAll = async () => {
+  try {
     setLoading(true)
+
     const [q, s] = await Promise.all([
       axios.get('/api/review/queue'),
       axios.get('/api/review/stats')
     ])
+
     setQueue(q.data.items)
     setStats(s.data)
+
+  } catch (err) {
+    console.error("Failed to fetch review data", err)
+  } finally {
     setLoading(false)
   }
-
+}
   useEffect(() => { fetchAll() }, [])
 
   const decide = async (id, decision) => {

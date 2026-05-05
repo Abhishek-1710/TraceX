@@ -15,7 +15,7 @@ app = FastAPI(title="TRACEX API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -29,3 +29,8 @@ app.include_router(alerts.router,   prefix="/api/alerts",   tags=["Alerts"])
 @app.get("/")
 def root():
     return {"message": "TRACEX API running", "docs": "/docs"}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))  # Railway gives PORT
+    uvicorn.run(app, host="0.0.0.0", port=port)

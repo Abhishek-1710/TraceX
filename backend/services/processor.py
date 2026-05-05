@@ -10,6 +10,13 @@ def normalize_address(addr) -> str:
     addr = addr.replace(" nagar", " ngr").replace(" colony", " col")
     return addr
 
+def clean_id(value):
+    if not value:
+        return ""
+    value = str(value).upper().strip()
+    value = re.sub(r'[^A-Z0-9]', '', value)  # remove invalid chars
+    return value[:15]  # safe limit
+
 def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
@@ -18,8 +25,8 @@ def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     # Normalize each field
     df['company_name'] = df['company_name'].str.lower().str.strip()
-    df['pan']          = df['pan'].apply(lambda x: str(x).upper().strip() if pd.notna(x) else '')
-    df['gstin']        = df['gstin'].apply(lambda x: str(x).upper().strip() if pd.notna(x) else '')
+    df['pan']   = df['pan'].apply(clean_id).str[:10]
+    df['gstin'] = df['gstin'].apply(clean_id).str[:15]
     df['address']      = df['address'].apply(normalize_address)
     df['pincode']      = df['pincode'].astype(str).str.strip() if 'pincode' in df.columns else ''
     df['state']        = df['state'].str.lower().str.strip() if 'state' in df.columns else ''
