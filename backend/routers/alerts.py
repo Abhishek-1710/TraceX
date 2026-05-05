@@ -6,8 +6,9 @@ from services.monitor import generate_alerts
 from loguru import logger
 
 router = APIRouter()
+print("ALERTS ROUTER LOADED")
 
-@router.get("")
+@router.get("/")
 def get_alerts(db: Session = Depends(get_db)):
     businesses = db.query(Business).all()
     all_logs = db.query(ActivityLog).all()
