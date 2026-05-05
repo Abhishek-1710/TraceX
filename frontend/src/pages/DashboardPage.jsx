@@ -31,20 +31,22 @@ const [allBiz, setAllBiz] = useState([])
 const [initialLoading, setInitialLoading] = useState(true)
 
 useEffect(() => {
-Promise.all([
-axios.get('/api/alerts'),
-axios.get('/api/business/all')
-])
-.then(([alertsRes, bizRes]) => {
-setAlerts(alertsRes.data.flagged_businesses || [])
-setAllBiz(bizRes.data.results || [])
-})
-.catch(err => {
-console.error("Initial load error", err)
-})
-.finally(() => {
-setInitialLoading(false)
-})
+  Promise.all([
+    axios.get('/api/alerts/'),
+    axios.get('/api/business/all')
+  ])
+  .then(([alertsRes, bizRes]) => {
+    console.log("DATA:", bizRes.data)
+
+    setAlerts(alertsRes.data.flagged_businesses || [])
+    setAllBiz(Array.isArray(bizRes.data.results) ? bizRes.data.results : [])
+  })
+  .catch(err => {
+    console.error("Initial load error", err)
+  })
+  .finally(() => {
+    setInitialLoading(false)
+  })
 }, [])
 
 const search = async () => {
@@ -60,7 +62,9 @@ setLoading(false)
 }
 }
 
-const displayList = query ? results : allBiz
+const displayList = query.trim() ? results : allBiz
+console.log("ALLBIZ:", allBiz.length)
+console.log("DISPLAY:", displayList.length)
 
 if (initialLoading) {
 return (
@@ -78,7 +82,7 @@ return (
       Government Dashboard
     </h1>
     <p style={{ color: '#64748b', marginBottom: 24, fontSize: 14 }}>
-      Search and monitor all registered businesses · {allBiz.length} total registered
+      Search and monitor all registered businesses · {displayList.length} total registered
     </p>
 
     {/* Search bar */}
@@ -97,7 +101,9 @@ return (
          outline: 'none',
          background: '#ffffff',
          color: '#000000',       
-         caretColor: '#000000'
+         caretColor: '#000000',
+         WebkitTextFillColor: '#000000', 
+         appearance: 'none' 
         }}
       />
 
