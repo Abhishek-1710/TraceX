@@ -9,7 +9,10 @@ frontend/dist/
 
 
 
+
+
 # Global venv (IMPORTANT)
+
 venv/
 
 # OS
