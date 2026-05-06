@@ -102,7 +102,7 @@ TraceX/
 ### 🔹 Clone the repository
 
 
-git clone https://github.com/your-username/TraceX.git
+git clone https://github.com/Amardeep1729/TraceX
 cd TraceX
 
 
@@ -110,30 +110,30 @@ cd TraceX
 
 ### 🔹 Setup Backend
 
-
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r backend/requirements.txt
-
+```
 
 ---
 
 ### 🔹 Run Backend
 
-
+```bash
 cd backend
 uvicorn main:app --reload
-
+```
 
 ---
 
 ### 🔹 Setup Frontend
 
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 
 ---
 
@@ -167,7 +167,8 @@ npm run dev
 ## 👨‍💻 Author
 
 **Abhishek & Amardeep**
-GitHub: 
+
+## 🔗 GitHub Repository:https://github.com/Amardeep1729/TraceX
 
 ---
 
