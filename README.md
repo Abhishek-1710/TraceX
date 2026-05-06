@@ -1,6 +1,5 @@
 
-# TraceX
-=======
+
 # 🚀 TraceX — Smart Entity Tracking & Verification System
 
 TraceX is a full-stack platform designed to **identify, track, and manage entities using official identifiers such as GSTIN and PAN**.
@@ -178,5 +177,9 @@ npm run dev
 ## 📜 License
 
 This project is open-source under the MIT License.
+
+
+
+
 
 
