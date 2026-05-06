@@ -101,10 +101,10 @@ TraceX/
 
 ### 🔹 Clone the repository
 
-
+```bash
 git clone https://github.com/Amardeep1729/TraceX
 cd TraceX
-
+```
 
 ---
 
