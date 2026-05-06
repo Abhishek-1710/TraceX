@@ -86,14 +86,14 @@ TraceX introduces a centralized approach where:
 
 ## 📂 Project Structure
 
-
+```bash
 TraceX/
 ├── backend/        # API, validation, business logic
 ├── frontend/       # UI and user interaction
 ├── venv/           # Virtual environment (ignored)
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
