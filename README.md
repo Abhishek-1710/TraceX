@@ -104,7 +104,7 @@ TraceX/
 ### 🔹 Clone the repository
 
 ```bash
-git clone https://github.com/Abhishek-1710/TraceX/tree/main/backend
+git clone https://github.com/Abhishek-1710/TraceX
 cd TraceX
 ```
 
@@ -170,7 +170,7 @@ npm run dev
 
 **Abhishek & Amardeep**
 
-## 🔗 GitHub Repository:https://github.com/Abhishek-1710/TraceX/tree/main/backend
+## 🔗 GitHub Repository:https://github.com/Abhishek-1710/TraceX
 
 ---
 
