@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TraceX
 =======
 # 🚀 TraceX — Smart Entity Tracking & Verification System
@@ -105,7 +105,7 @@ TraceX/
 ### 🔹 Clone the repository
 
 ```bash
-git clone https://github.com/Amardeep1729/TraceX
+git clone https://github.com/Abhishek-1710/TraceX/tree/main/backend
 cd TraceX
 ```
 
@@ -171,7 +171,7 @@ npm run dev
 
 **Abhishek & Amardeep**
 
-## 🔗 GitHub Repository:https://github.com/Amardeep1729/TraceX
+## 🔗 GitHub Repository:https://github.com/Abhishek-1710/TraceX/tree/main/backend
 
 ---
 
